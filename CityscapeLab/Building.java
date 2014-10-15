@@ -5,8 +5,8 @@ import java.awt.Color;
 /**
  * Creates buildings in the cityscape with specified bottom left positions and numbers of floors
  * 
- * @Rob Norton 
- * @10/7/2014
+ * @author Rob Norton 
+ * @version 10/14/2014
  */
 public class Building
 {
