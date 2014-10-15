@@ -68,10 +68,10 @@ public class CarTest
         testCar.addGas(20);
         testCar.drive(50);
         double gallons = testCar.getGasInTank();
-        assertEquals(19.5, gallons, 1e-6);
+        assertEquals(19.0, gallons, 1e-6);
         
         testCar.drive(100);
         gallons = testCar.getGasInTank();
-        assertEquals(17.5, gallons, 1e-6);
+        assertEquals(17.0, gallons, 1e-6);
     }
 }

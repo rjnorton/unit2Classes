@@ -44,7 +44,7 @@ public class Car
      */
     public double getGasInTank()
     {
-        return 0;
+        return this.fuelInTank;
     }
 
     /**
@@ -55,8 +55,7 @@ public class Car
      */
     public void addGas(double gas)
     {
-        // put your code here
-        this.fuelInTank = gas;
+        this.fuelInTank = this.fuelInTank + gas;
     }
 
 }
